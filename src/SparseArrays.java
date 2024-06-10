@@ -55,9 +55,9 @@ class Result {
 
 public class SparseArrays {
     public static void main(String[] args) throws IOException {
-        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
-        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(System.getenv("OUTPUT_PATH")));
-
+        BufferedReader bufferedReader = new BufferedReader(new FileReader("resources//Environment.env"));
+//        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(resources//Environment.env));
+        BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter("resources//Output.txt"));
         int stringListCount = Integer.parseInt(bufferedReader.readLine().trim());
 
         List<String> stringList = IntStream.range(0, stringListCount).mapToObj(i -> {
