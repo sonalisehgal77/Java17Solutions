@@ -1,2 +1,2 @@
 # CoreJava17Programs
-Hacker Rank CoreJava 17 Programs
+LEetCode and HackerRank CoreJava 17 Programs
