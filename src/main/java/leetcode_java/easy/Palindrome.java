@@ -6,28 +6,28 @@ https://leetcode.com/explore/interview/card/top-interview-questions-easy/127/str
  */
 public class Palindrome {
 
-        public boolean isPalindrome(String s) {
-            String str = s.toLowerCase().trim();
-            str=str.replace(',',' ');
-            str=str.replace(':',' ');
-            char[] charArray = str.toCharArray();
-            int left = 0;
-            int right = str.length();
-            int len = right/2;
-            if(right%2==0){
-                for(int i=0;i!=len;i++){
-                    if(charArray[i]==charArray[len]){
-                        len--;
-                    } else if (charArray[i]!=charArray[len]){
-                        return false;
-                    }
-                }
-                return true;
-            } else if(right%2!=0) {
-                return false;
-            }
-            return false;
+    int isPalindrome(String S) {
+        // code here
+        int i = 0;
+        int j = S.length() - 1;
+
+        // While there are characters to compare
+        while (i < j) {
+
+            // If there is a mismatch
+            if (S.charAt(i) != S.charAt(j))
+                return 0;
+
+            // Increment first pointer and
+            // decrement the other
+            i++;
+            j--;
         }
+
+        // Given string is a palindrome
+        return 1;
+    }
+
 
     public static void main(String[] args) {
         Palindrome palindrome = new Palindrome();
