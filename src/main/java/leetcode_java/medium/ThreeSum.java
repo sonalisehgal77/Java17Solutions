@@ -1,5 +1,10 @@
 package leetcode_java.medium;
+/*
+ThreeSum - Leet Code Question
+https://leetcode.com/problems/3sum/?envType=study-plan-v2&envId=top-interview-150
+using w/o Sets
 
+ */
 import java.util.*;
 
 public class ThreeSum {
