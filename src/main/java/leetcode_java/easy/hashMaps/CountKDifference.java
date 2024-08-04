@@ -1,5 +1,7 @@
 package leetcode_java.easy.hashMaps;
-
+/*
+https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/
+ */
 import java.util.*;
 
 public class CountKDifference {

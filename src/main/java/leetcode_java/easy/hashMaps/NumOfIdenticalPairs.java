@@ -1,4 +1,8 @@
 package leetcode_java.easy.hashMaps;
+/*
+https://leetcode.com/problems/number-of-good-pairs/description/
+ */
+
 
 import java.util.HashMap;
 import java.util.LinkedList;

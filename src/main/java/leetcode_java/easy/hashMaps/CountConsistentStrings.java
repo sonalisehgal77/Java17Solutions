@@ -2,6 +2,11 @@ package leetcode_java.easy.hashMaps;
 
 import java.util.HashMap;
 import java.util.Map;
+
+/*
+
+ */
+
 public class CountConsistentStrings {
 
     public int countConsistentStrings(String allowed, String[] words) {
